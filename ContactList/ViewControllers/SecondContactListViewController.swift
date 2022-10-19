@@ -16,6 +16,8 @@ class SecondContactListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Persons List"
+        
         guard let tabBar = tabBarController as? TabBarController else { return }
         contactList = tabBar.contactList
     }
